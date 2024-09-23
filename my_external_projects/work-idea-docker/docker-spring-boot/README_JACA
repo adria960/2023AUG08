@@ -1,0 +1,13 @@
+
+Run via Docker
+1. Create image from Dockerfile:
+    > docker build -t jaca-test:1.0 .
+    > docker images
+    REPOSITORY                    TAG                        IMAGE ID       CREATED         SIZE
+    jaca-test                     1.0                        9dc66af933d7   33 hours ago    543MB
+
+2. Run (winpty for GitHub):
+    > winpty docker run -p 8085:8085 -it jaca-test:1.0
+
+3. Browse localhost:8085/rest/docker/hello
+OK
