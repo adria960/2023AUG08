@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/jjwt-api.iml" filepath="$PROJECT_DIR$/api/jjwt-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/jjwt-extensions.iml" filepath="$PROJECT_DIR$/extensions/jjwt-extensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/gson/jjwt-gson.iml" filepath="$PROJECT_DIR$/extensions/gson/jjwt-gson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/impl/jjwt-impl.iml" filepath="$PROJECT_DIR$/impl/jjwt-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/jackson/jjwt-jackson.iml" filepath="$PROJECT_DIR$/extensions/jackson/jjwt-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/orgjson/jjwt-orgjson.iml" filepath="$PROJECT_DIR$/extensions/orgjson/jjwt-orgjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjwt-root.iml" filepath="$PROJECT_DIR$/jjwt-root.iml" />
+    </modules>
+  </component>
+</project>

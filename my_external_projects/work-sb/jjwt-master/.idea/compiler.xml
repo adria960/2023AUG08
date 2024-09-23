@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jjwt-orgjson" />
+        <module name="jjwt-api" />
+        <module name="jjwt-jackson" />
+        <module name="jjwt-gson" />
+        <module name="jjwt-impl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jjwt-api" target="8" />
+      <module name="jjwt-extensions" target="8" />
+      <module name="jjwt-gson" target="8" />
+      <module name="jjwt-impl" target="8" />
+      <module name="jjwt-jackson" target="8" />
+      <module name="jjwt-orgjson" target="9" />
+      <module name="jjwt-root" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
